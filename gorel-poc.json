@@ -1,0 +1,22 @@
+{
+    "version": "1.5.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/NoUseFreak/gorel-poc/releases/download/1.5.0/gorel-poc_windows_386.zip",
+            "bin": [
+                "gorel-poc.exe"
+            ],
+            "hash": "5e0af631085c6d154300d8c72be2642971897d8352e1f3df5878da5a41ff2268"
+        },
+        "64bit": {
+            "url": "https://github.com/NoUseFreak/gorel-poc/releases/download/1.5.0/gorel-poc_windows_amd64.zip",
+            "bin": [
+                "gorel-poc.exe"
+            ],
+            "hash": "20995d65b5724f7d531722c5c64407631661732337b302f5c8adf6ad43111226"
+        }
+    },
+    "homepage": "https://goreleaser.com",
+    "license": "MIT",
+    "description": "{{ .Env.PROJECT_DESCRIPTION }}"
+}
